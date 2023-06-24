@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "first-project",
-    "slug": "first-project",
+    "name": "todo-app",
+    "slug": "todo-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,12 +22,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ashish10.todoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d8d649d2-52ba-4f69-bbbc-1457a5f7a9e7"
+      }
+    },
+    "owner": "ashish10"
   }
 }
